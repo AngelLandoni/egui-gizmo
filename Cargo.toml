@@ -1,6 +1,6 @@
 [package]
 name = "egui-gizmo"
-version = "0.16.1"
+version = "0.17.0"
 authors = ["Urho Laukkarinen <urho.laukkarinen@gmail.com>"]
 edition = "2021"
 
@@ -17,7 +17,7 @@ exclude = ["/docs"]
 members = ["demo"]
 
 [dependencies]
-egui = "0.26"
+egui = "0.25"
 glam = { version = "0.25.0", features = ["mint"] }
 mint = "0.5"
 
