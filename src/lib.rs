@@ -41,6 +41,7 @@ use crate::subgizmo::{
 mod math;
 mod painter;
 mod subgizmo;
+pub use mint;
 
 /// The default snapping distance for rotation in radians
 pub const DEFAULT_SNAP_ANGLE: f32 = PI / 32.0;
